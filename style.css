@@ -12,6 +12,8 @@ header {
 }
 
 .nav_lista {
-
-    
+     display: flex;
+     list-style: none;
+    gap: 80px;
+    text-transform: uppercase;
 }
