@@ -21,7 +21,6 @@ header {
 
 .navbar {
     width: 100%;
-    font-size: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -61,4 +60,19 @@ section {
     font-size: 4rem;
     color: color(from color srgb r g b);
 }
+ .menu-toggle{
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    background: none;
+    padding: 5px;
 
+}
+
+.menu-toggle span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+    transition: 0.3s;
+}
