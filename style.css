@@ -55,11 +55,14 @@ section {
     width: 100%;
     padding: 20px 8%;
     display: flex;
+    justify-content: center;
 } 
 
 .titulo {
     font-size: 4rem;
     color: color(from color srgb r g b);
+    text-align: center;
+    width: 100%;
 }
  /* Menu hambúrguer para mobile */
 .menu-toggle {
