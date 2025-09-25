@@ -9,10 +9,11 @@ header {
     padding: 20px 8%;
     background-color: blueviolet;
     position: fixed;
-   top: 0;
+    top: 0;
     left: 0;
     z-index: 1000;
 }
+
 #logo {
     font-size: 1.5rem;
     color: white;
@@ -37,7 +38,7 @@ header {
 }
 
 .nav_item {
-     font-size: 25px;
+    font-size: 25px;
     color: white;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -52,21 +53,26 @@ header {
     display: flex;
     min-height: calc(100vh - 91px);
     margin-top: 91px;
-}
+ }
 
-section {
+ section {
     width: 100%;
     padding: 20px 8%;
     display: flex;
     justify-content: center;
-} 
+ }
 
-.titulo {
+ .titulo {
     font-size: 4rem;
-    color: color(from color srgb r g b);
+    color: #1d1d1d;
     text-align: center;
     width: 100%;
-}
+ }
+
+ .titulocor {
+    color: blueviolet;
+ }
+
  /* Menu hambúrguer para mobile */
 .menu-toggle {
     display: none;
@@ -138,6 +144,7 @@ section {
     }
 }
 
+
 @media (max-width: 480px) {
     header {
         padding: 10px 3%;
@@ -152,11 +159,6 @@ section {
     }
 }
 
-
-
-
-
-==================================================================88888888888888888888888888888=========================================
 
 /* Media queries para o título */
 @media (max-width: 768px) {
