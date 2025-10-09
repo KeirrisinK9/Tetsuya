@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
-
+:root {
+    --cor-primaria-1: #2DE1FC;
+    --cor-primaria-2: #2AFC98;
+    --cor-primaria-3: #09E85E;
+    --cor-primaria-4: #16C172;
+    --cor-primaria-5: #214F4B;
+}
 
 
 
