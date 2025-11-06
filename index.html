@@ -22,9 +22,9 @@
                 <span></span>
             </button>
             <ul class="nav_lista" id="navLista">
-                <li class="nav_item">Rock</li>
-                <li class="nav_item">Samba</li>
-                <li class="nav_item">Pagode</li>
+                <li class="nav_item"><a href="#rock">Rock</a></li>
+                <li class="nav_item"><a href="#samba">Samba</a></li>
+                <li class="nav_item"><a href="#pagode">Pagode</a></li>
             </ul>
 
 
@@ -41,34 +41,40 @@
             </h1>
         </section>
 
-        <section class="secao" id="HIP-HOP">
+        <section class="secao" id="rock">
             <div class="titulo_section">
-             <h1><i class="fa-solid fa-gun"> HIP-HOP</i></h1>
-        </div>
-        <ul class="moldura_videos">
-          <li class="videos">
-
-          </li>
-        </ul>
+                <h1><i class="fa-brands fa-rockrms"></i> Rock</h1>
+            </div>
+            <ul class="moldura_videos">
+                <li class="video">
+                 <iframe width="1323" height="744" src="https://www.youtube.com/embed/u2GCZGITTDw" title="Guardians of the Galaxy: Remix (Vol. 1 &amp; Vol. 2) (Full Sound track) #guardiansofthegalaxy #awesome" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>   
+                </li>
+                <li class="video">
+                 <iframe width="1323" height="744" src="https://www.youtube.com/embed/u2GCZGITTDw" title="Guardians of the Galaxy: Remix (Vol. 1 &amp; Vol. 2) (Full Sound track) #guardiansofthegalaxy #awesome" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>   
+                </li>
+                <li class="video">
+                 <iframe width="1323" height="744" src="https://www.youtube.com/embed/bkuuQ91OaxU" title="Alternative Rock Of The 90s 2000s ⚡⚡Linkin park, Creed, AudioSlave, Hinder, Evanescence #altrock" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>   
+                </li>
+                
+                
+            </ul>
         </section>
-        
 
-        
     </main>
-<script>
+    <script>
         // JavaScript para controlar o menu hambúrguer
         const menuToggle = document.getElementById('menuToggle');
         const navLista = document.getElementById('navLista');
-        
-        menuToggle.addEventListener('click', function() {
+
+        menuToggle.addEventListener('click', function () {
             navLista.classList.toggle('active');
             menuToggle.classList.toggle('active');
         });
-        
+
         // Fechar menu ao clicar em um item
         const navItems = document.querySelectorAll('.nav_item');
         navItems.forEach(item => {
-            item.addEventListener('click', function() {
+            item.addEventListener('click', function () {
                 navLista.classList.remove('active');
                 menuToggle.classList.remove('active');
             });
